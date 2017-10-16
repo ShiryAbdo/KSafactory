@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:background="@drawable/smoke_chimney_industrial_29465"
+    tools:context="aljentelhosting.ksaksafactory.activites.AcountUser">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" >
+        <aljentelhosting.ksaksafactory.others.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:text="تعديل حسابي "
+            android:id="@+id/wasf_titel"
+            />
+        <ImageView
+            android:id="@+id/go_back"
+            android:layout_gravity="end"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:padding="@dimen/_4sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/go_back"
+            android:contentDescription="@string/bake_icon" />
+    </android.support.v7.widget.Toolbar>
+
+
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_marginTop="@dimen/_13sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/_50sdp"
+            android:padding="@dimen/_10sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:id="@+id/imageView"
+            android:background="@drawable/usericon"
+            />
+
+
+        <TextView
+            android:layout_marginRight="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:padding="@dimen/_10sdp"
+            android:textStyle="bold"
+            android:text= "الإسم"
+            android:textAlignment="center"
+            android:layoutDirection="rtl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            />
+
+
+
+
+
+        <TextView
+            android:background="@drawable/login_btn"
+             android:layout_marginBottom="@dimen/_8sdp"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:paddingLeft="@dimen/_5sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:gravity="center"
+            android:textSize="@dimen/_16sdp"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:text= "تسجيل الخروج"
+            android:drawableRight="@drawable/ic_perm_identity_white_"
+            android:id="@+id/outtig" />
+
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:background="@drawable/rounded_border_edittext"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_gravity="center"
+                 android:gravity="center"
+                android:textSize="@dimen/_16sdp"
+                android:layout_width="@dimen/_120sdp"
+                android:padding="@dimen/_5sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:text=  "المنتجات المفضله"
+                 android:textColor="#182156"
+                android:id="@+id/fevourt_adds" />
+            <TextView
+                android:background="@drawable/rounded_border_edittext"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="@dimen/_120sdp"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_16sdp"
+                 android:layout_height="@dimen/_35sdp"
+                android:text= "المتابعين"
+                android:textColor="#182156"
+                android:id="@+id/flowers"/>
+            <TextView
+                android:background="@drawable/rounded_border_edittext"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                 android:layout_width="@dimen/_120sdp"
+                android:padding="@dimen/_5sdp"
+                android:textSize="@dimen/_16sdp"
+                 android:layout_height="@dimen/_35sdp"
+                android:text= "إعدادات الحساب"
+                android:textColor="#182156"
+                android:id="@+id/setting_acount"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:background="@drawable/rounded_border_edittext"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/_16sdp"
+                android:layout_width="@dimen/_120sdp"
+                android:padding="@dimen/_5sdp"
+                 android:layout_height="@dimen/_35sdp"
+                android:text=  "إضافه إعلان"
+                android:textColor="#182156"
+                android:id="@+id/add_adds"/>
+            <TextView
+                android:background="@drawable/rounded_border_edittext"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/_16sdp"
+                android:layout_width="@dimen/_120sdp"
+                android:padding="@dimen/_5sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:text=  "إعلاناتي"
+                android:textColor="#182156"
+                android:id="@+id/my_adds"/>
+
+
+
+            <TextView
+                android:background="@drawable/rounded_border_edittext"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/_16sdp"
+                android:layout_width="@dimen/_120sdp"
+                android:padding="@dimen/_5sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:text=  "المنشأت المضافه"
+                android:textColor="#182156"
+                android:id="@+id/elmonshat_modafa"/>
+
+            <TextView
+                android:background="@drawable/rounded_border_edittext"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="@dimen/_16sdp"
+                android:layout_width="@dimen/_120sdp"
+                android:padding="@dimen/_5sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:text=  "إضافه منشأه"
+                android:textColor="#182156"
+                android:id="@+id/add_elmonshat"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/_50sdp"
+    android:layoutDirection="rtl"
+    android:layout_width="300dp"
+      android:maxHeight="300dp"
+    android:windowBackground="@color/colorAccent"
+    android:layout_height="300dp">
+
+    <LinearLayout
+        android:windowBackground="@color/colorAccent"
+        android:gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="300dp">
+        <Button
+
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:id="@+id/as_moassa"
+            android:layoutDirection="rtl"
+            android:text="@string/as_moasasa"
+            android:textSize="@dimen/_15sdp"
+             android:textColor="@color/white"
+            android:background="@drawable/back"
+             android:layout_width="@dimen/_70sdp"
+            android:layout_height="wrap_content"
+
+            />
+
+
+        <Button
+            android:id="@+id/as_singel"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_15sdp"
+            android:background="@drawable/back"
+            android:text="@string/as_singile"
+            android:textColor="@color/white"
+             />
+    </LinearLayout>
+
+
+</LinearLayout>

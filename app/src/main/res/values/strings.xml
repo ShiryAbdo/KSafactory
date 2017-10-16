@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name"> سوق الصناعات السعودية</string>
+    <string name="title_activity_serch_factory">serchFactoryActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="postel_code">الرمز البريدي</string>
+    <string name="prodectes">المنتجات</string>
+    <string name="sooady_factores">المصانع السعودية</string>
+    <string name="singel_register">التسجيل كفرد</string>
+    <string name="moassa_register">التسجيل كمؤسسة</string>
+    <string name="factory_parts">قطع غيار المصنع</string>
+    <string name="support">الدعم الفني</string>
+    <string name="logo_first_page">logo_first_page</string>
+    <string name="serch_factort">ابحث عن مصنعك</string>
+    <string name="over_view_all_factores">عرض كل المصانع</string>
+    <string name="add_factory">أضف مصنعك</string>
+    <string name="conplet_regstration">أكمل التسجيل</string>
+    <string name="add_your_factory">أضف مصنعك</string>
+    <string name="owner_name_of_factory">اسم صاحب المصنع</string>
+    <string name="factory_name">اسم المصنع</string>
+    <string name="ether_phone_factory">رقم هاتف المصنع</string>
+    <string name="phone_numbe_add">رقم الجوال</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="what_factpry_prodect">ماذا ينتج المصنع</string>
+    <string name="contuio">المتابعة</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="serach_with_name_or_ma3rof">البحث باسم او معرف المصنع</string>
+    <string name="search_all_over_factores">البحث بالنشاط الصناعي لكافة المصانع</string>
+    <string name="as_moasasa">كمؤسسة</string>
+    <string name="as_singile">كفرد</string>
+    <string name="like">إعجاب</string>
+    <string name="write_coments">أكتب تعليقك</string>
+    <string name="image_of_factory">image of factory</string>
+    <string name="title_activity_commentes_wasf">Commentes_wasf</string>
+    <string name="wasf_elmontag">وصف المنتج</string>
+    <string name="title_activity_map_wassf">Map</string>
+    <string name="title_activity_countinu_adding">Map</string>
+    <string name="title_activity_wasff_with_tabb">wasffWithTabb</string>
+    <string name="owener_factor">اسم صاحب المصنع:</string>
+    <string name="email_hint">البريد الإلكتروني</string>
+    <string name="bake_icon">bake icon</string>
+
+
+    <string name="select">Choose an object</string>
+
+    <string-array name="object_array">
+
+        <item>House</item>
+
+        <item>Car</item>
+
+        <item>Cake</item>
+
+        <item>Money</item>
+
+        <item>Food</item>
+
+        <item>Phone</item>
+
+        <item>Laptop</item>
+
+    </string-array>
+    <string name="title_activity_main_activityv">MainActivityv</string>
+
+</resources>

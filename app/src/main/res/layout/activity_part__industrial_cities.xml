@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_first_page"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:titleTextColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        >
+
+
+        <ImageView
+            android:id="@+id/go_back"
+            android:layout_gravity="end"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:padding="@dimen/_4sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/go_back"
+            android:contentDescription="@string/bake_icon" />
+
+        <aljentelhosting.ksaksafactory.others.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:text="أقسام المدن الصناعية"
+            android:id="@+id/wasf_titel"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_2sdp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:id="@+id/spasial_city"
+            android:layout_height="@dimen/_220sdp"
+            android:background="@drawable/back4"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp"
+            >
+
+
+
+            <aljentelhosting.ksaksafactory.others.MyTextView
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:layoutDirection="rtl"
+                android:gravity="center"
+                 android:layout_gravity="center"
+                android:textAlignment="center"
+                android:padding="@dimen/_10sdp"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:text= "المدن الخاصة"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+             android:id="@+id/liner_C"
+            android:layout_gravity="center"
+            android:gravity="center"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_weight=".5"
+                android:id="@+id/layou_cites_stand_up"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_width="@dimen/_180sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/back"
+                android:orientation="vertical"
+                android:scaleType="fitCenter"
+                >
+
+
+
+
+                <aljentelhosting.ksaksafactory.others.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:background="@drawable/back"
+                    android:text="قائمة المدن"
+                    android:layoutDirection="rtl"
+                    android:padding="@dimen/_10sdp"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_weight=".5"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:id="@+id/area_tqny_layout"
+        android:layout_width="@dimen/_155sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/back3"
+        android:orientation="vertical"
+        android:scaleType="fitCenter"
+        >
+
+
+
+
+        <aljentelhosting.ksaksafactory.others.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:layoutDirection="rtl"
+            android:text="مناطق التقنية"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight=".5"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:id="@+id/wahat_elmodin_layout"
+        android:background="@drawable/back4"
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:adjustViewBounds="true"
+         android:orientation="vertical"
+        android:scaleType="fitCenter"
+        >
+
+
+
+
+        <aljentelhosting.ksaksafactory.others.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/_10sdp"
+            android:layoutDirection="rtl"
+            android:text="واحات المدن"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

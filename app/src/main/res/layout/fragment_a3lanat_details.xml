@@ -1,0 +1,294 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/A3lanatDetails"
+     android:background="@drawable/rounded_border_edittext"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/_10sdp"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    tools:context="aljentelhosting.ksaksafactory.fragments.AboutOFactory">
+
+    <LinearLayout
+        android:layout_margin="@dimen/_2sdp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="3"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <aljentelhosting.ksaksafactory.others.MyTextView
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"
+                 android:layoutDirection="rtl"
+            android:text= " قسم الإعلان : "
+            android:layout_weight="1"
+
+
+            android:padding="@dimen/_2sdp"
+            android:gravity="right"
+             android:layout_gravity="center"
+             android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+            <aljentelhosting.ksaksafactory.others.MyTextView
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"
+            android:hint="  قسم اللإعلان  :"
+            android:id="@+id/ads_category_name"
+            android:layout_weight="2"
+            android:padding="@dimen/_2sdp"
+        android:layoutDirection="rtl"
+            android:gravity="right"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <aljentelhosting.ksaksafactory.others.MyTextView
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:text= " نوع الإعلان : "
+                android:layout_weight="1"
+
+                android:layoutDirection="rtl"
+                android:padding="@dimen/_2sdp"
+                android:gravity="right"
+                 android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <aljentelhosting.ksaksafactory.others.MyTextView
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:hint="   نوع اللإعلان  :"
+                android:id="@+id/ads_type_name"
+                android:layout_weight="2"
+                android:padding="@dimen/_2sdp"
+                android:layoutDirection="rtl"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <aljentelhosting.ksaksafactory.others.MyTextView
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:text= " تصنيف الإعلان : "
+                android:layout_weight="1"
+
+                android:layoutDirection="rtl"
+                android:padding="@dimen/_2sdp"
+                android:gravity="right"
+                 android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <aljentelhosting.ksaksafactory.others.MyTextView
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:layoutDirection="rtl"
+                android:hint="    تصنيف اللإعلان  :"
+                android:id="@+id/ads_model_name"
+                android:layout_weight="2"
+                android:padding="@dimen/_2sdp"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <aljentelhosting.ksaksafactory.others.MyTextView
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:text= " السعر : "
+                android:layout_weight="1"
+                android:layoutDirection="rtl"
+
+                android:padding="@dimen/_2sdp"
+                android:gravity="right"
+                 android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <aljentelhosting.ksaksafactory.others.MyTextView
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:hint="السعر  :"
+                android:id="@+id/ads_price"
+                android:layoutDirection="rtl"
+                android:layout_weight="2"
+                android:padding="@dimen/_2sdp"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <aljentelhosting.ksaksafactory.others.MyTextView
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:text= "المدينة : "
+                android:layout_weight="1"
+                android:layoutDirection="rtl"
+
+                android:padding="@dimen/_2sdp"
+                android:gravity="right"
+                 android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <aljentelhosting.ksaksafactory.others.MyTextView
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:hint="     المدينة  :"
+                android:layoutDirection="rtl"
+                android:id="@+id/ads_city_name"
+                android:layout_weight="2"
+                android:padding="@dimen/_2sdp"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <aljentelhosting.ksaksafactory.others.MyTextView
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:text= "تاريخ الإعلان : "
+                android:layout_weight="1"
+                android:layoutDirection="rtl"
+
+                android:padding="@dimen/_2sdp"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <aljentelhosting.ksaksafactory.others.MyTextView
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:hint="      تاريخ الإعلان   :"
+                android:id="@+id/date_insert"
+                android:layout_weight="2"
+                android:padding="@dimen/_2sdp"
+                android:layoutDirection="rtl"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <aljentelhosting.ksaksafactory.others.MyTextView
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:layoutDirection="rtl"
+                android:text= "رقم الإعلان  : "
+                android:layout_weight="1"
+
+
+                android:padding="@dimen/_2sdp"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <aljentelhosting.ksaksafactory.others.MyTextView
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:hint="       رقم الإعلان   :"
+                android:id="@+id/ads_id"
+                android:layout_weight="2"
+                android:padding="@dimen/_2sdp"
+                android:layoutDirection="rtl"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <aljentelhosting.ksaksafactory.others.MyTextView
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:text= "عدد المشاهدات  : "
+                android:layout_weight="1"
+
+                android:layoutDirection="rtl"
+                android:padding="@dimen/_2sdp"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+            <aljentelhosting.ksaksafactory.others.MyTextView
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:hint="رقم الإعلان   :"
+                android:id="@+id/ads_visited"
+                android:layoutDirection="rtl"
+                android:layout_weight="2"
+                android:padding="@dimen/_2sdp"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>
