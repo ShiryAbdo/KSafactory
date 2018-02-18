@@ -10,7 +10,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -29,7 +28,7 @@ public class AcountUser extends AppCompatActivity {
     ImageView go_back ;
     SharedPreferences.Editor editor;
     SharedPreferences sharedPref;
-    String url = "http://ksafactory.com/API/my_account/index.php?user_id=20";
+//    String url = "http://ksafactory.com/API/my_account/index.php?user_id=20";
     String account_about,user_image,usernamee,emaili,user_mobile,user_gender,user_address ,id;
     Bundle bundle;
     String typeShared;

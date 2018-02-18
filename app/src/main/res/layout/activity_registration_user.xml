@@ -121,6 +121,7 @@
             android:id="@+id/editText_phone" />
 
         <Spinner
+            android:visibility="gone"
             android:layout_marginBottom="@dimen/_8sdp"
             android:layout_gravity="center"
             android:layout_width="@dimen/_240sdp"

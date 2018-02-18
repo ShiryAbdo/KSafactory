@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name"> سوق الصناعات السعودية</string>
+    <string name="app_name"> سوق الصناعة السعودية</string>
     <string name="title_activity_serch_factory">serchFactoryActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
@@ -11,7 +11,7 @@
     <string name="sooady_factores">المصانع السعودية</string>
     <string name="singel_register">التسجيل كفرد</string>
     <string name="moassa_register">التسجيل كمؤسسة</string>
-    <string name="factory_parts">قطع غيار المصنع</string>
+    <string name="factory_parts"> قطع غيار المكائن الصناعية</string>
     <string name="support">الدعم الفني</string>
     <string name="logo_first_page">logo_first_page</string>
     <string name="serch_factort">ابحث عن مصنعك</string>

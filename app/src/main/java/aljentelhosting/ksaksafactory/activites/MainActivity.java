@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        layou_media=(LinearLayout)findViewById(R.id.layou_media);
+        layou_media=(LinearLayout)findViewById(R.id.layout_media);
         layou_media.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
